@@ -1,0 +1,27 @@
+﻿<Window x:Class="FileSearcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileSearcher"
+        mc:Ignorable="d"
+        Title="FileSearcher" Height="450" Width="800">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Height="20" VerticalAlignment="Top">
+            <MenuItem Name="FileAndTextCheck" Header="文件文本核对界面" Click="FileAndTextCheck_MenuItem_Click">
+            </MenuItem>
+            <MenuItem Name="FileFindAndCopy" Header="文件自动查找界面" Click="FileFindAndCopy_MenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="帮助" Click="MenuItem_Click">
+                <MenuItem Header="点击获取文件信息后使用" Click="MenuItem_Click2"/>
+                <MenuItem Header="https://github.com/ybworker" Click="MenuItem_Click3"/>
+            </MenuItem>
+        </Menu>
+        <Frame x:Name="MainFrame" Margin="5,5,5,5" NavigationUIVisibility="Hidden" Grid.RowSpan="2" />
+
+    </Grid>
+</Window>
