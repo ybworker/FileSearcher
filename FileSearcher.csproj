@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+	  <!--尝试将所有内容（包括资源文件等）打包进单个 .exe 文件 -->
+	  <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
     <ApplicationIcon>Resources\ic.ico</ApplicationIcon>
     <FileVersion></FileVersion>
   </PropertyGroup>

@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\fliefindandcopypage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:fliefindandcopypage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\fliefindandcopypage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:fliefindandcopypage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\obj\\Debug\\net8.0-windows\\FlieFindAndCopyPage2.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\FlieFindAndCopyPage2.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\fileandtextcheckpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:fileandtextcheckpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\filesearcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:filesearcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\fileandtextcheckpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:fileandtextcheckpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|c:\\users\\world\\desktop\\myproject\\ybworker\\filesearcher\\fliefindandcopypage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5A3B3E-DC32-4234-8703-D759DC7EE224}|FileSearcher.csproj|solutionrelative:fliefindandcopypage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,38 +42,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-12T14:18:00.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "FileAndTextCheckPage1.xaml",
               "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FileAndTextCheckPage1.xaml",
               "RelativeDocumentMoniker": "FileAndTextCheckPage1.xaml",
               "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FileAndTextCheckPage1.xaml",
               "RelativeToolTip": "FileAndTextCheckPage1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-12T14:17:46.599Z"
+              "WhenOpened": "2026-01-13T12:33:33.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FlieFindAndCopyPage2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FlieFindAndCopyPage2.xaml.cs",
-              "RelativeDocumentMoniker": "FlieFindAndCopyPage2.xaml.cs",
-              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FlieFindAndCopyPage2.xaml.cs",
-              "RelativeToolTip": "FlieFindAndCopyPage2.xaml.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAgwIoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T02:01:18.115Z",
+              "DocumentIndex": 2,
+              "Title": "FileSearcher.csproj",
+              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FileSearcher.csproj",
+              "RelativeDocumentMoniker": "FileSearcher.csproj",
+              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FileSearcher.csproj",
+              "RelativeToolTip": "FileSearcher.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-13T12:29:06.282Z",
               "EditorCaption": ""
             },
             {
@@ -96,60 +73,34 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAxwA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:18:14.397Z",
+              "WhenOpened": "2026-01-13T12:22:01.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FlieFindAndCopyPage2.xaml",
-              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FlieFindAndCopyPage2.xaml",
-              "RelativeDocumentMoniker": "FlieFindAndCopyPage2.xaml",
-              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FlieFindAndCopyPage2.xaml",
-              "RelativeToolTip": "FlieFindAndCopyPage2.xaml",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-12T14:16:49.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FileAndTextCheckPage1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FileAndTextCheckPage1.xaml.cs",
-              "RelativeDocumentMoniker": "FileAndTextCheckPage1.xaml.cs",
-              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FileAndTextCheckPage1.xaml.cs",
-              "RelativeToolTip": "FileAndTextCheckPage1.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA1wB8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:17:42.767Z",
+              "WhenOpened": "2026-01-13T12:21:54.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Core.cs",
-              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\Core.cs",
-              "RelativeDocumentMoniker": "Core.cs",
-              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\Core.cs",
-              "RelativeToolTip": "Core.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAcwOwAAAARAAAAAAAAAA==",
+              "Title": "FlieFindAndCopyPage2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FlieFindAndCopyPage2.xaml.cs",
+              "RelativeDocumentMoniker": "FlieFindAndCopyPage2.xaml.cs",
+              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\FlieFindAndCopyPage2.xaml.cs",
+              "RelativeToolTip": "FlieFindAndCopyPage2.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:16:58.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FlieFindAndCopyPage2.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\obj\\Debug\\net8.0-windows\\FlieFindAndCopyPage2.g.i.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\FlieFindAndCopyPage2.g.i.cs",
-              "ToolTip": "C:\\Users\\World\\Desktop\\Myproject\\ybworker\\FileSearcher\\obj\\Debug\\net8.0-windows\\FlieFindAndCopyPage2.g.i.cs",
-              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\FlieFindAndCopyPage2.g.i.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAiwGYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T02:10:31.946Z",
+              "WhenOpened": "2026-01-13T12:16:11.518Z",
               "EditorCaption": ""
             }
           ]

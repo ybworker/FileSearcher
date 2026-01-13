@@ -32,7 +32,7 @@ namespace FileSearcher
         }
         private void MenuItem_Click2(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("V2.2 ;\nv2.1更新：输出文件描述修正。\nv2.2更新：增加文件.pdf与.dwg文件复制功能");
+            MessageBox.Show("V2.3 ;\nv2.1更新：输出文件描述修正。\nv2.2更新：增加文件.pdf与.dwg文件复制功能。\nv2.3更新：文件复制功能优化-20260113");
         }
         private void MenuItem_Click3(object sender, RoutedEventArgs e)
         {
