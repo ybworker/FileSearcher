@@ -15,6 +15,7 @@ namespace FileSearcher
 
         public event EventHandler ResultTxtNullHandler;
         public event Func<bool, bool, TxTData, Dictionary<FileResultFormEnum, List<string>>, object> A;
+        public Core() { }
         public Core(EventHandler finishWriterHandler, EventHandler resultTxtNullHandler)
         {
             FinishWriterHandler += finishWriterHandler;

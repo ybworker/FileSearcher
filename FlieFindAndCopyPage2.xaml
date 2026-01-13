@@ -22,14 +22,8 @@ Text="请在此处输入目标位置路径" VerticalAlignment="Top" Height="20" 
         <TextBlock x:Name="TextBlock_FilePathDate" Margin="34,87,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" Width="66" Height="21" VerticalAlignment="Top">
             <Run Language="zh-cn" Text="文件路径:" FontSize="15"/></TextBlock>
         <TextBox x:Name="TextBox_FilePath" Margin="34,113,0,0" TextWrapping="NoWrap"  IsEnabled="True" 
-Text="请在此处输入原位置路径" VerticalAlignment="Top" Height="20" TextChanged="TextBox_FilePath_TextChanged" HorizontalAlignment="Left" Width="302" />
-        <Button x:Name="Button_IsPath" Content="获取文件信息" HorizontalAlignment="Left" Margin="206,138,0,0" VerticalAlignment="Top" Height="36" Width="130"
-                Click="Button_IsPath_Click" FontSize="20"/>
-        <CheckBox x:Name="CheckBox_Overwrite" IsThreeState="False" Content="覆盖文件" FontSize="15
+         Text="请在此处输入原位置路径" VerticalAlignment="Top" Height="20"  HorizontalAlignment="Left" Width="302" />
+               <CheckBox x:Name="CheckBox_Overwrite" IsThreeState="False" Content="覆盖文件" FontSize="15
                   " HorizontalAlignment="Left" Margin="247,339,0,0" VerticalAlignment="Top" Height="25" Width="89"/>
-        <TextBlock x:Name="TextBlock_FindPlan" Margin="20,378,606,57" TextWrapping="Wrap"><Run Language="zh-cn" Text="aaa"/></TextBlock>
-
-
-
     </Grid>
 </Page>

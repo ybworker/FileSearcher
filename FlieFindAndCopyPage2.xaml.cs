@@ -23,7 +23,6 @@ namespace FileSearcher
     {
 
         public bool IsPathTrue { get; private set; }
-        private string filePath;
         private List<TxTData> userInputList;
         private StreamWriter streamWriter;
         private FileInfo[] pdffiles, dwgfiles;
@@ -37,12 +36,9 @@ namespace FileSearcher
         private void Init()
         {
             CheckBox_Overwrite.IsChecked = false;
-            Button_CopyFile.IsEnabled = false;
             core = new Core(FinishWriterHandler, ResultTxtNullHandler);
             core.A += Core_A;
         }
-
-
 
         private void ResultTxtNullHandler(object? sender, EventArgs e)
         {
@@ -53,21 +49,11 @@ namespace FileSearcher
             MessageBox.Show("完成");
         }
 
-        private void TextBox_FilePath_TextChanged(object sender, TextChangedEventArgs e)
+        private void GetFileInfo()
         {
-            Button_CopyFile.IsEnabled = false;
-        }
-
-        private void Button_IsPath_Click(object sender, RoutedEventArgs e)
-        {
-            filePath = TextBox_FilePath.Text;
-            IsPathTrue = GetFilePath(filePath);
-            if (IsPathTrue)
-            {
-                userInputList = GetTxTDataList();
-                Core.GetAllFileDWGandPDF(filePath, out pdffiles, out dwgfiles);
-                Button_CopyFile.IsEnabled = true;
-            }
+             
+            userInputList = GetTxTDataList();
+            Core.GetAllFileDWGandPDF(TextBox_FilePath.Text, out pdffiles, out dwgfiles);
         }
         public bool GetFilePath(string path)
         {
@@ -78,13 +64,18 @@ namespace FileSearcher
             }
             return true;
         }
-        public string[] GetUserInputStrings()
+        public bool GetFilePath(string path, string prefixName)
         {
-            return TextBox_txtData.Text.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
+            if (!Directory.Exists(path))
+            {
+                MessageBox.Show(prefixName + "路径有误，请重新输入");
+                return false;
+            }
+            return true;
         }
         private List<TxTData> GetTxTDataList()
         {
-            return Core.GetDrawingDataList(GetUserInputStrings());
+            return Core.GetDrawingDataList(TextBox_txtData.Text.Split("\r\n", StringSplitOptions.RemoveEmptyEntries));
         }
 
         private object Core_A(bool isPDFFile, bool isdwgFile, TxTData fileName, Dictionary<FileResultFormEnum, List<string>> nullFileName)
@@ -109,71 +100,57 @@ namespace FileSearcher
                     }
                     break;
             }
-            streamWriter.WriteLine((isdwgFile || isPDFFile ? "有" : "没有"));
+            streamWriter.WriteLine(fileName.Name+"                   " + (isdwgFile  ? "有" : "没有")+ "                   " + (isPDFFile ? "有" : "没有"));
             return null;
         }
 
         private void TextBox_CopyPath_TextChanged(object sender, TextChangedEventArgs e)
         {
         }
-        public  void CopyFileTo(object objl)
+        public void CopyFileTo(string path, Dictionary<string, List<FileInfo>> copyFiles, bool isOverwrite)
         {
-            TYEU obj = objl as TYEU;
-            
-            int i = 0;
-            TextBlock_FindPlan.Text =i.ToString()+"/"+obj.copyFiles.Count.ToString();
-            foreach (var item in obj.copyFiles.Keys)
+            foreach (var item in copyFiles.Keys)
             {
-                foreach (var file in obj.copyFiles[item])
+                foreach (var file in copyFiles[item])
                 {
-                    if (obj.isOverwrite)
+                    if (!File.Exists(file.FullName))
+                        continue;
+                    if (isOverwrite)
                     {
-                        file.CopyTo(obj.path + "\\" + file.Name, obj.isOverwrite);
+                        file.CopyTo(path + "\\" + file.Name,isOverwrite);
                     }
                     else
                     {
-                        if (!File.Exists(obj.path + "\\" + file.Name))
+                        if (!File.Exists(path + "\\" + file.Name))
                         {
-                            file.CopyTo(obj.path + "\\" + file.Name, obj.isOverwrite);
+                            file.CopyTo(path + "\\" + file.Name, isOverwrite);
                         }
                     }
-                    i++;
-                    TextBlock_FindPlan.Text = i.ToString() + "/" + obj.copyFiles.Count.ToString();
                     Thread.Sleep(100);
                 }
             }
+            MessageBox.Show("复制完成");
         }
         private void Button_CopyFile_Click(object sender, RoutedEventArgs e)
         {
-            if (!GetFilePath(TextBox_CopyPath.Text))
+            if (!(GetFilePath(TextBox_FilePath.Text, "文件") && GetFilePath(TextBox_CopyPath.Text, "复制")))
                 return;
+            GetFileInfo();
             MessageBoxResult copyResult = MessageBox.Show("是否复制到此路径？", "复制确认", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (copyResult == MessageBoxResult.Yes)
             {
                 string temp = TextBox_CopyPath.Text;
                 streamWriter = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\文件情况.txt");
+                streamWriter.WriteLine("名称-------------------.dwg-------------------.pdf");
                 Dictionary<FileResultFormEnum, List<string>> nullFileNames;
                 var c = core.FindFirstPDFandDWGFile(userInputList, pdffiles, dwgfiles, out nullFileNames);
                 streamWriter.Close();
-                TYEU tYEU = new TYEU();
-                tYEU.path = temp;
-                tYEU.copyFiles = c;
-                tYEU.isOverwrite = (bool)CheckBox_Overwrite.IsChecked;
-                Thread th = new Thread(CopyFileTo);
-                th.Start(tYEU);
-               // CopyFileTo(temp, c, (bool)CheckBox_Overwrite.IsChecked);
+                CopyFileTo(temp, c, (bool)CheckBox_Overwrite.IsChecked);
             }
             else
             {
                 return;
             }
         }
-
-    }
-    public class TYEU 
-    {
-       public string path;
-       public Dictionary<string, List<FileInfo>> copyFiles;
-       public bool isOverwrite;
     }
 }
